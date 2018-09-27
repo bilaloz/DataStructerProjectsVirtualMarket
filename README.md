@@ -52,9 +52,22 @@ Visual Studio etkileşimli geliştirme ortamı (IDE) bir yaratıcı launching g�
 
 Geliştirilecek bir sanal market yazılımı kapsamında, ürünlere ilişkin bilgiler kategori altında tutulacaktır.
 Market Personelinin Kullanacağı Modülün Geliştirilmesi:
-Markete yeni isimde ve/veya kategoride ürün girişi, Markete, yeni bir marka/modelde ürün girişi • Adından Ürün arama ve silme, Ürün bilgilerinde değişiklik (Kategori, Marka, Model, Miktar, Fiyat)  • Ayrıca şirketin toplam gelir, gider ve kârının hesaplanması istenmektedir (Kar = o ana kadar satışı yapılan ürünlerin tümü için [Satış Fiyatı – Maliyet] toplamı) özellikleri olacaktır.
+Markete yeni isimde ve/veya kategoride ürün girişi, Markete, yeni bir marka/modelde ürün girişi 
+• Adından Ürün arama ve silme, Ürün bilgilerinde değişiklik (Kategori, Marka, Model, Miktar, Fiyat) 
+• Ayrıca şirketin toplam gelir, gider ve kârının hesaplanması istenmektedir (Kar = o ana kadar satışı yapılan ürünlerin tümü için [Satış Fiyatı – Maliyet] toplamı) özellikleri olacaktır.
 Müşterilerin Kullanacağı Modülün Geliştirilmesi:
-Adından Ürün bilgisi arama (tüm markalardaki modellerinin fiyatlarını listeleme) • Belirli fiyatlar arasındaki tüm ürünlerin bulunup listelenmesi • Belirtilen bir kategorideki tüm Ürünleri, ikili arama ağacındaki düzeyleri ile birlikte listeleme (Inorder, preorder, postorder). Ağacın derinliğini ve eleman sayısını yazdırma. • Ürün Siparişi ve Alımı  • Verilen bir kelimenin geçtiği ürünlere Hash Tablosu üzerinden erişilerek listelenmesi • Heap oluşturularak, kullanıcının vereceği kategorideki en ucuz N ad
+Adından Ürün bilgisi arama (tüm markalardaki modellerinin fiyatlarını listeleme)
+• Belirli fiyatlar arasındaki tüm ürünlerin bulunup listelenmesi
+• Belirtilen bir kategorideki tüm Ürünleri, ikili arama ağacındaki düzeyleri ile birlikte listeleme (Inorder, preorder, postorder). Ağacın derinliğini ve eleman sayısını yazdırma.
+• Ürün Siparişi ve Alımı 
+• Verilen bir kelimenin geçtiği ürünlere Hash Tablosu üzerinden erişilerek listelenmesi 
+• Heap oluşturularak, kullanıcının vereceği kategorideki en ucuz N ad
 
 <p><a target="_blank" href="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images1.png"><img src="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images1.png" alt="alt text" style="max-width:100%;"></a></p>
 <p><a target="_blank" href="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images2.png"><img src="https://github.com/bilaloz/Scrum-Project/blob/master/Images/images2.png" alt="alt text" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images3.png"><img src="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images1.png" alt="alt text" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images4.png"><img src="https://github.com/bilaloz/Scrum-Project/blob/master/Images/images2.png" alt="alt text" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images5.png"><img src="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images1.png" alt="alt text" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images6.png"><img src="https://github.com/bilaloz/Scrum-Project/blob/master/Images/images2.png" alt="alt text" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images7.png"><img src="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images1.png" alt="alt text" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/bilaloz/DataStructerProjectsVirtualMarket/blob/master/Images/images8.png"><img src="https://github.com/bilaloz/Scrum-Project/blob/master/Images/images2.png" alt="alt text" style="max-width:100%;"></a></p>
