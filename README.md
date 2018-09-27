@@ -29,6 +29,91 @@
 
 <h2><a id="user-content-a-better-way-of-building-products" class="anchor" aria-hidden="true" href="#a-better-way-of-building-products"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Manisa Celal Bayar Üniversitesi HFTTF Yazılım Mühendisliği Bölümü Veri Yapıları Dönem Projesi</h2>
 
+<h1>BÖLÜM 1
+
+Gerçekleştirilen Platform Hakkında Bilgiler
+
+C#
+C# (si şarp diye okunur) Microsoft tarafından geliştirilmiş olan bir programlama dilidir. C++ ve Java dillerine oldukça benzer, ancak C#'ın bu dillere benzerliği yanında farkları da vardır. Örneğin C#, C++'dan farklı olarak % 100 nesne yönelim tekniğine sahiptir. Java'dan farklı olarak ise C#'ta gösterici (pointer) kullanılabilir. Böylelikle eski yazılım bileşenleriyle uyumlu bir şekilde çalışılabilir.
+
+Microsoft Visual Studio 2013 Ultimate
+Visual Studio etkileşimli geliştirme ortamı (IDE) bir yaratıcı launching görüntülemek ve kod, neredeyse her türlü düzenleyin ve sonra hata ayıklama, yapı ve Android, iOS, Windows, web ve bulut uygulamaları yayımlamak için kullanabileceğiniz bir ortamdır. Sürümleri Mac ve Windows için kullanılabilir. Bu konu Visual Studio IDE özelliklerini tanıtır. Biz, Visual Studio ile nasıl yüklemek ve kullanmak, basit bir proje oluşturun, işaretçileri hata ayıklama ve dağıtma kodu alın ve çeşitli aracı windows gezin bazı şeyleri adım geçireceğiz.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BÖLÜM 2
+
+
+
+Gerçekleştirilen Sorun Hakkında Bilgiler
+
+Geliştirilecek bir sanal market yazılımı kapsamında, ürünlere ilişkin bilgiler kategori altında tutulacaktır.
+Market Personelinin Kullanacağı Modülün Geliştirilmesi:
+Markete yeni isimde ve/veya kategoride ürün girişi, Markete, yeni bir marka/modelde ürün girişi • Adından Ürün arama ve silme, Ürün bilgilerinde değişiklik (Kategori, Marka, Model, Miktar, Fiyat)  • Ayrıca şirketin toplam gelir, gider ve kârının hesaplanması istenmektedir (Kar = o ana kadar satışı yapılan ürünlerin tümü için [Satış Fiyatı – Maliyet] toplamı) özellikleri olacaktır.
+Müşterilerin Kullanacağı Modülün Geliştirilmesi:
+Adından Ürün bilgisi arama (tüm markalardaki modellerinin fiyatlarını listeleme) • Belirli fiyatlar arasındaki tüm ürünlerin bulunup listelenmesi • Belirtilen bir kategorideki tüm Ürünleri, ikili arama ağacındaki düzeyleri ile birlikte listeleme (Inorder, preorder, postorder). Ağacın derinliğini ve eleman sayısını yazdırma. • Ürün Siparişi ve Alımı  • Verilen bir kelimenin geçtiği ürünlere Hash Tablosu üzerinden erişilerek listelenmesi • Heap oluşturularak, kullanıcının vereceği kategorideki en ucuz N adet ürünün satın alınması. İkili arama ağacı ve Hash Tablosu üzerinde de gerekli güncellemelerin yapılması.        • Kategori ağaçlarını dengeleme. • Müşterilerin üye olabilmesi (Sistem, birden çok müşteri için düzgün biçimde çalışabilmeli). • Alışveriş listesi eklenmesi (Belirli bir müşterinin almış olduğu ürünlere ilişkin listenin tutulması). • Müşterilerin ürünler hakkında yorum yazabilmesi.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BÖLÜM 3 
+
+Veri Yapısı Kataloğu
+
+Kullanılan Veri Yapıları
+Ağaç Veri Yapısı: Verilerin birbirine sanki bir ağaç yapısı oluşturuyormuş gibi sanal olarak bağlanmasıyla elde edilen hiyerarşik yapıya sahip veri yapısıdır.
+İkili Arama Ağacı: Arama, gezinme, ekleme ve silme gibi işlemleri destekleyen ağaçlar, arama ağacı olarak adlandırılır.  Bu bağlamda arama ağacı, belirli sayıda düzenli/sıralı elemana/değere sıralı erişimi sağlar. Bir arama ağacı, verilerin düğümlere belli bir düzende eklenmesiyle elde edilir.  Arama ağaçlarının önemli avantajı, veri girişinin disipline edilmesi sayesinde, aranan elemana ulaşmak için tüm ağacın dolaşılmasına (traverse) gerek olmamasıdır.
+Hash Tabloları: Sıralı erişimde, temel işlem, baştan sona tüm anahtarları karşılaştırmaktır.  Bir anahtarın tablo içerisinde bulunduğu pozisyona ulaşıncaya kadar arama işlemine devam edilir.  Hash fonksiyonuyla aranan anahtar elemana doğrudan erişilebilmektedir.  Hash fonksiyonu, bir anahtar bilgisinin tabloda bulunduğu indeksi hesaplamaktadır.
+
+
+Sınıflar ve Kullanılan Metotlar
+Category- Kategori Class
+Customer – Müşteri Class
+Hash Entry – Hash Class
+Hash Map – Hash Class
+Heap Class- Heap Class
+frmAdminPanel – Admin Paneli
+frmMusteriPanel – Müşteri Paneli
+frmGirisPanel-Giriş Paneli
+
+</h1>
+
 <h2><a id="user-content-scrum-is" class="anchor" aria-hidden="true" href="#scrum-is"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Project - Images:</h2>
 
 
